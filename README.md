@@ -16,11 +16,12 @@ Site 100% estático: é só servir os arquivos (ou publicar no Vercel/Netlify/Gi
 - `content-visibility` nas seções abaixo da dobra
 - Fontes do Google carregadas de forma não-bloqueante
 
-## ⚠️ Antes de publicar — trocar pelo seu
-Herdado do template, precisa ser substituído em `index.html`:
-1. **Meta Pixel** — ID `2486824241743289`
-2. **UTMify pixel** — ID `6a2899b0a2a0a7483b514f5d`
-3. **Link de checkout Hotmart** — `pay.hotmart.com/B107231150D`
+## Rastreamento e checkout
+- ✅ **Meta Pixel** — ID `2486824241743289` (confirmado do dono, instalado e disparando `PageView`)
+- ✅ **Link de checkout Hotmart** — `pay.hotmart.com/B107231150D` (produto próprio)
+
+### ⚠️ Ainda pendente — trocar pelo seu em `index.html`
+- **UTMify pixel** — ID `6a2899b0a2a0a7483b514f5d` (ainda é o do template)
 
 Conteúdo já adaptado para o produto de +4000 matrizes, com as categorias reais:
 Floral, Infantil, Frases y Nombres, Personajes, Punto Cruz, Religioso, Masculino, Mantas,
