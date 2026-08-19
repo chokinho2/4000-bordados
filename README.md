@@ -22,4 +22,6 @@ Herdado do template, precisa ser substituído em `index.html`:
 2. **UTMify pixel** — ID `6a2899b0a2a0a7483b514f5d`
 3. **Link de checkout Hotmart** — `pay.hotmart.com/B107231150D`
 
-E o conteúdo de texto (ainda em espanhol, do nicho anterior) pode ser adaptado ao seu produto.
+Conteúdo já adaptado para o produto de +4000 matrizes, com as categorias reais:
+Floral, Infantil, Frases y Nombres, Personajes, Punto Cruz, Religioso, Masculino, Mantas,
+Palas y Cenefas, Profesiones y Marcas, Reducidos e Equipos de Fútbol. Textos em espanhol (mercado LatAm).
