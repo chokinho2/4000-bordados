@@ -15,7 +15,7 @@
   <link rel="dns-prefetch" href="https://cdn.utmify.com.br" />
 
   <!-- Preload LCP (hero image) -->
-  <link rel="preload" as="image" href="imagens/capa-4000-nova.webp" fetchpriority="high" />
+  <link rel="preload" as="image" type="image/avif" href="imagens/capa-4000-pro.avif" fetchpriority="high" />
 
   <!-- Fonts (carregamento não-bloqueante) -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Manrope:wght@400;600;700&display=swap" />
@@ -99,13 +99,14 @@
     </p>
 
     <!-- Capa principal do produto -->
-    <div class="mt-10 w-full max-w-3xl">
+    <div class="mt-8 w-full max-w-md">
       <picture>
-        <img src="imagens/capa-4000-nova.webp"
-             sizes="(max-width: 640px) 100vw, 768px"
+        <source type="image/avif" srcset="imagens/capa-4000-pro.avif" />
+        <img src="imagens/capa-4000-pro.webp"
+             sizes="(max-width: 640px) 80vw, 448px"
              alt="+ de 4000 Matrices Profesionales de Bordado — Listas para Bordar"
-             width="768" height="768"
-             class="w-full h-auto rounded-2xl shadow-soft"
+             width="900" height="935"
+             class="w-full h-auto"
              loading="eager" fetchpriority="high" decoding="async" />
       </picture>
     </div>
@@ -458,13 +459,14 @@
         </div>
 
         <!-- Imagem do produto -->
-        <div class="mt-4 max-w-md mx-auto">
+        <div class="mt-4 max-w-sm mx-auto">
           <picture>
-            <img src="imagens/capa-4000-nova.webp"
-                 sizes="(max-width: 640px) 90vw, 448px"
+            <source type="image/avif" srcset="imagens/capa-4000-pro.avif" />
+            <img src="imagens/capa-4000-pro.webp"
+                 sizes="(max-width: 640px) 80vw, 384px"
                  alt="+ de 4000 Matrices Profesionales de Bordado — Paquete completo"
-                 width="768" height="768"
-                 class="w-full h-auto rounded-xl shadow-card"
+                 width="900" height="935"
+                 class="w-full h-auto"
                  loading="lazy" decoding="async" />
           </picture>
         </div>
