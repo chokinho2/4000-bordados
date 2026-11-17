@@ -1,7 +1,7 @@
 # Paquete Navidad (Upsell) — Descripción para Hotmart (ES)
 
 ## Nombre del producto
-Paquete Navidad — Navidad Bordada + Alfabetos + Kit de Ventas
++1.000 Matrices de Navidad
 
 ## Descripción corta (~160 car.)
 Más de 1.000 matrices de Navidad + alfabetos y monogramas + kit de ventas para encargos. Deja la Navidad lista en tu máquina. Acceso inmediato.
@@ -10,7 +10,7 @@ Más de 1.000 matrices de Navidad + alfabetos y monogramas + kit de ventas para 
 
 **En diciembre los pedidos llegan todos juntos** — toallas, paños de cocina, medias con nombre, servilletas. Deja la Navidad lista en tu máquina hoy y evita la corrida de diciembre buscando matrices sueltas, una por una.
 
-El **Paquete Navidad** reúne todo lo que necesitas para bordar y atender los encargos navideños:
+Las **+1.000 Matrices de Navidad** reúnen todo lo que necesitas para bordar y atender los encargos navideños:
 
 **1. Navidad Bordada Completa**
 ✓ 1.000 matrices de Navidad
@@ -39,8 +39,7 @@ El **Paquete Navidad** reúne todo lo que necesitas para bordar y atender los en
 ## Notas para configurar en Hotmart
 - Es un **upsell / one-click** tras la compra de la Colección Infantil (Puntada Dulce).
 - Precio sugerido del paquete: **US$ 12,90** (ancla: US$ 28 por separado).
-- En la página `up-navidad.html` hay que pegar:
-  - El enlace del **checkout del upsell** (reemplazar `PEGAR-LINK-UPSELL-NAVIDAD`).
-  - El enlace del **downsell / "No, gracias"** (reemplazar `PEGAR-LINK-DOWNSELL-NAVIDAD`).
+- ✅ Checkout del upsell ya configurado: `pay.hotmart.com/K108541806I`
+- ✅ Portada en español ("Navidad Bordada") ya aplicada.
+- ⚠️ Falta el enlace del **downsell / "No, gracias"** en `up-navidad.html` (reemplazar `PEGAR-LINK-DOWNSELL-NAVIDAD`).
 - Instalar el **Meta Pixel `919671640911264`** en Hotmart (eventos Purchase).
-- ⚠️ La imagen de la portada (`imagens/navidad/pacote-navidad.*`) está en **portugués** ("Natal Bordado") — generar/sustituir por una versión en español ("Navidad Bordada").
