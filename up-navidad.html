@@ -4,18 +4,13 @@
 <meta name="robots" content="noindex,nofollow">
 <title>¡Espera! Tu compra fue aprobada</title>
 <link rel="icon" href="imagens/linhadoce/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" type="image/avif" href="imagens/navidad/navidad-bordada-es.avif" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com/3.4.16"></script>
-<script>
-tailwind.config={theme:{extend:{
-  fontFamily:{sans:['DM Sans','sans-serif'],display:['Bricolage Grotesque','sans-serif']},
-  colors:{ink:{DEFAULT:'#FFFFFF',card:'#FFFFFF',alt:'#EDE2F5'},peach:'#9A5AC8',butter:'#9A5AC8',mint:'#5E9A74',rubi:'#B3262E',pinho:'#1F5C46'},
-  keyframes:{pulse_btn:{'0%,100%':{boxShadow:'0 0 0 0 rgba(154,90,200,.45)'},'50%':{boxShadow:'0 0 0 14px rgba(154,90,200,0)'}}},
-  animation:{pulse_btn:'pulse_btn 2s ease-in-out infinite'}
-}}};
-</script>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" media="print" onload="this.media=&#39;all&#39;">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap"></noscript>
+<link rel="stylesheet" href="tw.css">
 <style>
 body{font-family:'DM Sans',sans-serif;background:#F6F0FB;color:#52465A;overflow-x:hidden}
 h1,h2,h3,.font-display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#3B2F46}
@@ -56,21 +51,21 @@ h1,h2,h3,.font-display{font-family:'Bricolage Grotesque',sans-serif;letter-spaci
   <!-- OFERTA -->
   <div class="bg-white rounded-3xl border-2 border-[#9A5AC8] p-5 sm:p-7 shadow-xl shadow-[#9A5AC8]/15">
     <h2 class="text-2xl sm:text-3xl font-extrabold mb-1">+1.000 Matrices de Navidad</h2>
-    <p class="text-[#83768C] text-sm mb-2">Todo lo que necesitas para bordar y atender los encargos de Navidad</p>
+    <p class="text-[#83768C] text-base mb-2">Todo lo que necesitas para bordar y atender los encargos de Navidad</p>
 
     <div class="item">
       <span class="n">1</span>
-      <div class="flex-1"><b class="text-[#3B2F46]">Navidad Bordada Completa</b><br><span class="text-sm">1.000 matrices de Navidad, Kit Sorpresa de Navidad (300 matrices), Kit Nombres de Navidad (300 nombres), Guía Abre a la Primera y Calendario de Encargos</span></div>
+      <div class="flex-1"><b class="text-[#3B2F46]">Navidad Bordada Completa</b><br><span class="text-base">1.000 matrices de Navidad, Kit Sorpresa de Navidad (300 matrices), Kit Nombres de Navidad (300 nombres), Guía Abre a la Primera y Calendario de Encargos</span></div>
       <span class="v">US$ 14</span>
     </div>
     <div class="item">
       <span class="n">2</span>
-      <div class="flex-1"><b class="text-[#3B2F46]">Alfabetos y Monogramas</b><br><span class="text-sm">212 matrices: letras de la A a la Z y números del 0 al 9 en 3 estilos, más el alfabeto cursivo completo (mayúsculas y minúsculas)</span></div>
+      <div class="flex-1"><b class="text-[#3B2F46]">Alfabetos y Monogramas</b><br><span class="text-base">212 matrices: letras de la A a la Z y números del 0 al 9 en 3 estilos, más el alfabeto cursivo completo (mayúsculas y minúsculas)</span></div>
       <span class="v">US$ 7</span>
     </div>
     <div class="item">
       <span class="n">3</span>
-      <div class="flex-1"><b class="text-[#3B2F46]">Kit de Ventas para Encargos</b> <span class="text-xs text-[#83768C]">(PDF)</span><br><span class="text-sm">Tabla para calcular tu precio, 20 mensajes listos de WhatsApp, textos e ideas de foto</span></div>
+      <div class="flex-1"><b class="text-[#3B2F46]">Kit de Ventas para Encargos</b> <span class="text-xs text-[#83768C]">(PDF)</span><br><span class="text-base">Tabla para calcular tu precio, 20 mensajes listos de WhatsApp, textos e ideas de foto</span></div>
       <span class="v">US$ 7</span>
     </div>
 
@@ -92,7 +87,16 @@ h1,h2,h3,.font-display{font-family:'Bricolage Grotesque',sans-serif;letter-spaci
     <p class="text-xs text-[#83768C] mt-3 leading-relaxed">La Navidad Bordada Completa sola cuesta US$ 14 en la página de Navidad. Los dos extras suman US$ 14. Aquí los tres salen por US$ 12,90.</p>
   </div>
 
-  <ul class="text-left text-sm space-y-3 mt-7 bg-white rounded-3xl border border-[#E6DAEF] p-5">
+  <!-- Pagas en tu moneda local -->
+  <div class="mt-5 bg-white border-2 border-dashed border-[#9A5AC8]/40 rounded-2xl p-4 flex items-center gap-3 text-left">
+    <div class="shrink-0 w-11 h-11 bg-[#9A5AC8]/10 rounded-full grid place-items-center text-xl" aria-hidden="true">🌎</div>
+    <div>
+      <p class="font-display font-extrabold text-[#3B2F46] text-base uppercase">Pagas en tu moneda local</p>
+      <p class="text-sm text-[#52465A] mt-0.5">Hotmart convierte el valor automáticamente: <b class="text-[#3B2F46]">peso mexicano, peso colombiano, peso argentino, sol, real</b> y más.</p>
+    </div>
+  </div>
+
+  <ul class="text-left text-base space-y-3 mt-7 bg-white rounded-3xl border border-[#E6DAEF] p-5">
     <li class="flex gap-2"><span class="text-mint font-extrabold">✓</span><span><b class="text-[#3B2F46]">El acceso llega por correo</b> apenas se confirma el pago.</span></li>
     <li class="flex gap-2"><span class="text-mint font-extrabold">✓</span><span>Formatos <b class="text-[#3B2F46]">PES, DST, JEF, XXX y EXP</b>, una carpeta por formato, nombre de archivo corto y sin acentos.</span></li>
     <li class="flex gap-2"><span class="text-mint font-extrabold">✓</span><span>Es un <b class="text-[#3B2F46]">pedido nuevo y separado</b>. Tu Colección Infantil sigue igual.</span></li>
