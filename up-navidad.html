@@ -82,8 +82,13 @@ h1,h2,h3,.font-display{font-family:'Bricolage Grotesque',sans-serif;letter-spaci
       <div class="bg-ink-alt rounded-xl px-4 py-2 min-w-[64px] text-center"><b id="cd-seg" class="text-2xl font-display text-[#9A5AC8]">00</b><p class="text-[10px] uppercase text-[#83768C] font-bold">Seg</p></div>
     </div>
 
-    <!-- CHECKOUT DEL UPSELL (Hotmart one-click) -->
-    <a href="https://pay.hotmart.com/K108541806I?checkoutMode=10" target="_blank" rel="noopener" class="cta-btn block bg-[#9A5AC8] text-white font-extrabold uppercase text-base sm:text-lg px-4 py-4 rounded-full animate-pulse_btn">Sí, quiero las Matrices de Navidad</a>
+    <!-- HOTMART - Sales Funnel Widget -->
+    <div id="hotmart-sales-funnel"></div>
+    <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+    <script>
+    checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+    </script>
+    <!-- HOTMART - Sales Funnel Widget -->
     <p class="text-xs text-[#83768C] mt-3 leading-relaxed">La Navidad Bordada Completa sola cuesta US$ 14 en la página de Navidad. Los dos extras suman US$ 14. Aquí los tres salen por US$ 12,90.</p>
   </div>
 
